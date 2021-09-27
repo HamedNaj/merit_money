@@ -17,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "cd client && yarn build && cd .. && node index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC"
