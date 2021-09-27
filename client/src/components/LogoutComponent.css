@@ -1,0 +1,11 @@
+.logout__component {
+  margin-left: auto;
+  padding-right: 10px;
+  color: white;
+  cursor: pointer;
+}
+.logout__component span {
+  position: relative;
+  top: -5px;
+  margin-right: 5px;
+}

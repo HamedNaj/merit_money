@@ -1,0 +1,36 @@
+.history__body {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    align-items: center;
+    width: 100%;
+}
+
+.history__body span {
+    font-size: 26px;
+    margin: 10px;
+    color: #5101d1;
+}
+
+.history__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.history__list-items {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px 10px -40px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+    padding: 10px 0;
+    align-items: center;
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+.history__list-items li {
+    margin-right: 5px;
+}

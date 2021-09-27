@@ -1,0 +1,14 @@
+.overall__result__body {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overall__result__body span {
+    font-size: 26px;
+    margin: 20px;
+    color: #5101d1;
+}

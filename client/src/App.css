@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    padding-top: 100px;
+}
+@media (max-width: 600px) {
+    body {
+        padding-top: 60px;
+    }
+}
+
+button {
+    background: #5101d1;
+    font: inherit;
+    border: 1px solid #5101d1;
+    border-radius: 3px;
+    padding: 0.25rem 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+    color: white;
+    cursor: pointer;
+    width: 11rem;
+    height: 35px;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+}
+
+input {
+    border: 1px solid #5101d1;
+    border-radius: 3px;
+    height: 1.5rem;
+    padding: 0.25rem 1rem;
+    font-size: 15px;
+}
+

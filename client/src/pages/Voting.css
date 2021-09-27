@@ -1,0 +1,44 @@
+.voting__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.voting__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.voting__list-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    width: 600px;
+    border: 1px solid #666666;
+    background-color: #CCCCCC;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.voting__list-items li {
+    margin-right: 5px;
+
+}
+.voting__list-items li.voted{
+    color: green;
+}
+.voting__list-items li.voted::after{
+    content:  '    \2705';
+}
+@media (max-width: 600px) {
+    .voting__list-items{
+        width:100%;
+    }
+}
