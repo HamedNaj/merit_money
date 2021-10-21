@@ -115,7 +115,6 @@ function Voting({username, room}) {
   function startVoting() {
     socket.emit('start-voting', roomId)
   }
-
   return (
     <div className='voting__body'>
       <span> total votes : {numberOfVotes}</span>
